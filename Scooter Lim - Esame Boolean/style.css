@@ -1,0 +1,107 @@
+/* Prime indicazioni alla pagina */
+*{
+box-sizing: border-box;
+margin: 0;
+}
+    
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+/* Parte riguardante il riquadro di fondo nero - trasparente */
+.container{
+    margin-top: 2%;
+    margin-bottom: 20%;
+    margin-left: 16%;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    padding-bottom: 5%;
+}
+
+/* Testo centrato nel contenuto di body */
+.container .center{
+    text-align: center;
+    
+}
+
+/* Dimensione logo */
+#logo{
+    width: 25%;
+}
+
+/* Colore del titolo */
+header > .title{
+    padding: 6%;
+    color: rgb(0, 255, 0);
+}
+
+/* Parte riguardante la navigazione del sito */
+/* Prima parte riguardante i 3 riquadri */
+.nav > span{
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background-color: white;
+    padding: 3px;
+}
+
+/* Seconda parte riguardante la striscia verde */
+.nav{
+    background-color: rgb(0, 255, 0);
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    color: black;
+}
+
+/* Comportamento generale del main */
+main > .text-main{
+    color: white;
+    margin-left: 10%;
+}
+
+/* Il main è diviso in due parti: 
+    Subject
+    Content
+Parte riguardante i subjects all'interno del main */
+.text-main .subjects{
+    margin-top: 2%;
+}
+
+#freccia::after{
+    content: "\21A6";
+    display: inline;
+}
+
+/* Seconda parte, content */
+.content .main{
+    border: 0;
+    border-radius: 5px;
+}
+
+.content > span{
+    display: block;
+}
+
+/* Ogni stato di carica ha una riga che viene gestita in questo punto */
+/* Prima riga */
+.first{
+    width: 30%;
+    height: 15px;
+    background-color: rgb(240, 158, 6);
+}
+
+/* Seconda riga */
+.second{
+    width: 50%;
+    height: 15px;
+    background-color: rgb(0, 128, 0);
+    
+}
+
+/* Terza riga */
+.last{
+    width: 10%;
+    height: 15px;
+    background-color: rgb(255, 0, 0);
+}
